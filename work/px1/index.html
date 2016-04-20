@@ -6,7 +6,7 @@
 	<style>
 	html,body{
 		width: 100%;
-		height: 100%;
+		height: 600px;
 	}
 		@media screen and (min-width: 1300px){
 			body>div{
@@ -71,7 +71,7 @@ document.body.addEventListener("touchmove",move);
 		}
 		var num=scollH+scollTop-scollT;
 		//alert(scollH+"+"+scollTop+"-"+scollT);
-		if(Math.abs(num)<Math.abs(20)){
+		if(Math.abs(num)<Math.abs(100)){
 			for(var i=0;i<=3;i++){
 				var div=document.createElement("div");
 				document.body.appendChild(div);
