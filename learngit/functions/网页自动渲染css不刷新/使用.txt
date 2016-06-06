@@ -1,0 +1,2 @@
+像jq一样，直接加入html文档
+<script src='AR.js'></script>
